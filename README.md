@@ -1,4 +1,7 @@
 
+
+**CartMax** is a full-featured MERN stack e-commerce web application that allows users to browse products, add them to cart, and place orders with secure authentication.
+
 🚀 Features of CartMax
 CartMax is a full-stack e-commerce web application designed to offer users a smooth and secure online shopping experience. Built with the powerful MERN Stack (MongoDB, Express.js, React, Node.js), it combines a responsive frontend with a robust backend to ensure seamless user interaction and efficient data handling.
 
