@@ -2,44 +2,79 @@
 .env
 .env.local
 .env.*.local
-
-# Dependencies
-/node_modules
-/.pnp
-.pnp.js
-
-# Testing
-/coverage
-
-# Production
-/build
-/dist
-
-# Misc
-.DS_Store
-.env.local
 .env.development.local
 .env.test.local
 .env.production.local
 
-# Logs
+# Dependencies
+node_modules/
+/backend/node_modules
+/frontend/node_modules
+/.pnp
+.pnp.js
+jspm_packages/
+bower_components
+
+# Testing
+/coverage
+*.lcov
+.nyc_output
+lib-cov
+
+# Production
+/build
+/dist
+/backend/dist
+/frontend/build
+/frontend/dist
+.next
+out
+.nuxt
+.vuepress/dist
+**/.vitepress/dist
+
+# Misc
+.DS_Store
+logs
+*.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+*.pid
+*.seed
+*.pid.lock
 
 # IDE
 .idea/
 .vscode/
+.vscode-test
 *.swp
 *.swo
 
-# Backend
-/backend/node_modules
-/backend/.env
-/backend/dist
-
-# Frontend
-/frontend/node_modules
-/frontend/.env
-/frontend/build
-/frontend/dist 
+# Cache
+.cache
+.parcel-cache
+.temp
+.cache
+**/.vitepress/cache
+.docusaurus
+.fusebox/
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+.eslintcache
+.stylelintcache
+.node_repl_history
+*.tgz
+.yarn-integrity
+.dynamodb/
+.tern-port
